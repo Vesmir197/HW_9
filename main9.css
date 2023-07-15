@@ -1,0 +1,247 @@
+
+@font-face {
+    font-family: BasisGrotesquePro-Bold;
+    src: url(/fonts/BasisGrotesquePro-Bold.woff);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Bold;
+    src: url(fonts/BasisGrotesquePro-Bold.woff2);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Medium;
+    src: url(fonts/BasisGrotesquePro-Medium.woff);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Medium;
+    src: url(fonts/BasisGrotesquePro-Medium.woff2);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Regular;
+    src: url(fonts/BasisGrotesquePro-Regular.woff);
+}
+@font-face {
+    font-family: BasisGrotesquePro;
+    src: url(fonts/BasisGrotesquePro-Regular.woff2);
+}
+@font-face {
+    font-family: BasisGrotesquePro;
+    src: url(fonts/BasisGrotesquePro-Light.woff);  
+}
+@font-face {
+    font-family: BasisGrotesquePro;
+    src: url(fonts/BasisGrotesquePro-Light.woff2);  
+}
+
+main {
+    max-width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.container {
+    margin-top: 7vh;
+    margin-left: 7vw;
+}
+.container-heading {
+text-transform: uppercase;
+font-size: 16px;
+color: rgb(0, 0, 255);
+font-family: 'BasisGrotesquePro-Medium';
+font-size: 700;
+padding-bottom: 3vh;
+}
+.container-slogan {
+    width: 430px;
+    text-transform: uppercase;
+    font-family: 'BasisGrotesquePro-Bold';
+    font-size: 16px;
+}
+.container-description {
+    display: block;
+    width: 21vw;
+    margin-top: 12vh;
+    font-family: 'BasisGrotesquePro';
+    font-size: 13px;
+    color: rgb(144, 141, 141);
+}
+.devider {
+    color: rgb(136, 133, 133);  
+}
+.BlockFAQ {
+    margin-top: 62vh;
+    margin-left: 5vw;
+    width: 34vw;
+}
+.BlockFAQ-question {
+    font-family: 'BasisGrotesquePro-Medium';
+    font-size: 15px;
+    text-transform: uppercase;    
+}
+.BlockFAQ-answer {
+    font-family: 'BasisGrotesquePro';
+    font-size: 13px;
+    color: rgb(136, 133, 133);
+}
+
+.partnersBlockOne {
+    width: 100%;
+    height: 380px;
+    margin-top: 9.25vh;
+    font-family: 'BasisGrotesquePro-Regular';
+    display: flex; 
+    flex-direction: row;
+}
+.partnersBlockOTwo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 53.8vh;
+    width: 100%;
+    height: 380px;
+    font-family: 'BasisGrotesquePro-Regular';
+
+}
+.partnersBlock-image {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    color: rgb(192, 188, 188);
+}
+.partnersBlock-image2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 6, 244);
+    color: white;  
+    border-top: 1px solid  blue;
+}
+.partnersBlock-imageRight1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    color: rgb(192, 188, 188);
+}
+.partnersBlock-imageRight2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    color: rgb(192, 188, 188);
+}
+.partnersBlock-item {
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.partnersBlock-itemRight {
+    margin-top: 65px;
+    margin-left: 25px;  
+}
+.BlockItem-textNix {
+    margin-top: 74px;
+    margin-left: 2vw;
+    font-family: 'BasisGrotesquePro-Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+}
+.BlockItem-textNis {
+    width: 13vw;
+    margin-top: 54px;
+    margin-left: 2vw; 
+    font-family: 'BasisGrotesquePro-Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.BlockItem-text {
+    margin-top: 91px;
+    margin-left: 2vw;
+    color: black;
+    font-family: 'BasisGrotesquePro-Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.BlockText-Description {
+    display: block;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    width: 20vw;
+    font-family: 'BasisGrotesquePro';
+    font-size: 14px;
+    color: rgb(155, 152, 152);
+}
+.form-subgridLeft {
+    margin-top: 8vh;
+}
+.contact {
+  font-family: 'BasisGrotesquePro-Medium';
+  font-size: 16px;
+}
+.inputName {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+    color: rgb(192, 188, 188);
+    font-family: 'BasisGrotesquePro';
+    width: 30vw;
+    padding-bottom: 0.5vh;
+}
+.name, .email{
+    padding-top: 2vh;
+}
+.inputEmail {
+    padding-bottom: 4vh;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+    color: rgb(192, 188, 188);
+    font-family: 'BasisGrotesquePro';
+    width: 30vw;   
+}
+.contactEmail {
+    display: block;
+    margin-top: 4vh;
+    font-family: 'BasisGrotesquePro-Medium';
+    font-size: 16px;
+}
+.form-subgridRight {
+    margin-top: 56.5vh;
+    margin-left: 6vw;
+}
+.inputMessage {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+    color: rgb(192, 188, 188);
+    font-family: 'BasisGrotesquePro';
+    width: 30vw; 
+    padding-top: 2vh;   
+}
+.inputMessageEmpty {
+    margin-top: 13.7vh;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+    color: rgb(192, 188, 188);
+    font-family: 'BasisGrotesquePro';
+    width: 30vw; 
+}
+.button {
+    width: 200px;
+    height: 55px;
+    margin-top: 80px;
+    background-color: rgb(37, 37, 244);
+    color: white;
+    margin-bottom: 10vh;
+}
